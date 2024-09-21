@@ -1,0 +1,71 @@
+.body{
+    font-family: "Monserrat", sans-serif;
+    margin: 0;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    padding: 0 10px;
+    justify-content: space-between;
+    background-color: rgb(240, 176, 226);
+}
+
+.link{
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.link a{
+    text-decoration: none;
+    color: rgb(255, 251, 251);
+    font-size: 3vh;
+}
+
+#logo{
+    width: 20vh;
+    height: 20vh;
+    border-radius: 50%;
+}
+
+#foto{
+    width: 30vh;
+    height: 30vh;
+    border-radius: 30%;
+    padding: 5vh;
+}
+
+.main{
+    display: flex;
+    background-color: #fff5fa;
+    justify-content: space-around;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    margin: 10vh;
+    justify-content: center;
+    color: rgb(218, 128, 203);
+}
+
+.text p{
+    font-size: 3vh;
+    margin-top: 3vh;
+}
+
+.text h3{
+    font-size: 5vh;
+    margin-bottom: 0;
+}
+
+button{
+    width: 15vh;
+    height: 5vh;
+    background-color: rgb(255, 211, 242);
+    color: rgb(243, 135, 238);
+    border: none;
+    border-radius: 5px;
+    font-size: 1.7vh;
+}
